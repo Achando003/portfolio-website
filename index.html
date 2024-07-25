@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+
+      <!-- end header -->
+
+      <!-- navbar -->
+      <nav class="navbar">
+        <a href="#home" class="navbar-link">home</a>
+        <a href="#about" class="navbar-link">about</a>
+        <a href="#projects" class="navbar-link">portfolio</a>
+        <a href="#contact" class="navbar-link">contact</a>
+      </nav>
+      <!-- end navbar -->
+      <header class="header" id="home">
+        <h1 class="header-heading">Hello welcome</h1>
+        <img
+          src="images/image3.jpg"
+          alt="john smith"
+          class="header-person-img"
+        />
+        <h3 class="header-person-name">Stacy Achando</h3>
+        <a href="#projects" class="header-btn">Projects</a>
+      </header>
+      <!-- about section -->
+      <section id="about">
+        <div class="wrap">
+          <div class="about">
+            <div class="about-intro">
+              <h1>About</h1>
+              <h1>Let me introduce myself</h1>
+              <div class="intro-details">
+                <div class="intro-image">
+                  <div class="image">
+                    <img
+                      class="image-circle"
+                      src="images/image2.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="intro-paragraph padding">
+                 
+                  <p>
+                    I am Stacy Achando A geospatial information science and
+                    remote sensing (GISRS) student at Dedan Kimathi University
+                    of Technology, Nyeri
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="about-info">
+              <div class="profile padding">
+                <h2>Profile</h2>
+                <p>
+                  Dedicated and passionate GISRS student with a keen interest in
+                  the applications of geospatial technologies in various fields.
+                  I am committed to expanding my knowledge and skills in GIS,
+                  remote sensing, and data analysis to contribute to innovative
+                  solutions in environmental and urban planning.
+                </p>
+
+                <h2>full name:</h2>
+                <p>Stacy Achando</p>
+    
+                <h2>Job:</h2>
+                <p>Student</p>
+              </div>
+              <div class="skills padding">
+                <h2>Skills</h2>
+                <p>
+                  Throughout my studies and projects, I have developed a diverse
+                  set of skills that enable me to effectively analyze and
+                  interpret spatial data, as well as create meaningful
+                  visualizations and solutions. These skills include:
+                </p>
+                <ul class="skill-bars">
+                  <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>QGIS</strong>
+                  </li>
+                  <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>ARCGIS PRO</strong>
+                  </li>
+                  <li>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>ERDAS IMAGINE</strong>
+                  </li>
+                  <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>ENVI</strong>
+                  </li>
+                  <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>ARCMAP</strong>
+                  </li>
+                </ul>
+                <!-- /skill-bars -->
+              </div>
+            </div>
+            <div class="about-buttons padding">
+              <div class="hire-me">
+                <button class="about-button">Hire me</button>
+              </div>
+              <div class="download-cv">
+                <button class="about-button">Download CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end about section -->
+
+      <!-- projects section -->
+   
+      <section  class="work section" id="projects">
+        <h1 class="contact-heading section-heading">Latest projects</h1>
+        <div class="projects-container">
+            <div class="project" data-category="web">
+                <img src="images/work1.jpg" alt="Project 2">
+                <div class="project-info">
+                  <h3>Flood Mapping Analysis</h3>
+                  <p>This project involves conducting a comprehensive flood mapping analysis using Google Earth Engine (GEE). The analysis includes real-time flood monitoring, interactive map visualizations, and historical data examination. The study leverages GEE's powerful tools to analyze flood patterns, assess flood risks, and provide accurate and up-to-date information for better flood management and response.</p>
+                  
+                </div>
+            </div>
+            <div class="project" data-category="gis">
+                <img src="images/work2.jpg" alt="Project 4">
+                <div class="project-info">
+                  <h3>GIS Programming</h3>
+                  <p>Utilized GIS programming techniques to create interactive maps using Folium. The project involved developing dynamic, web-based maps with real-time data visualization, allowing users to explore spatial information interactively. Leveraged Folium's capabilities to integrate various data layers, apply custom map styling, and enable user interaction, enhancing the overall accessibility and usability of spatial data.</p>
+                  
+                </div>
+            </div>
+            <div class="project" data-category="gis">
+                <img src="images/work3.jpg" alt="Project 3">
+                <div class="project-info">
+                    <h3>Network aNALYSIS</h3>
+                    <p>Optimized routes and assessed connectivity using ArcGIS Pro. Enhanced urban planning and infrastructure decisions through spatial relationship modeling and comprehensive network analysis tools.</p>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+      <!-- end projects section -->
+
+      <!-- contact section -->
+      <section class="contact" id="contact">
+        <h1 class="contact-heading section-heading">Contact Me</h1>
+        <form class="contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Send" class="contact-form-btn" />
+        </form>
+      </section>
+      <!-- end contact section -->
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="social-media-icons">
+          <a href="https://twitter.com/yourusername" target="_blank">
+            <i class='bx bxl-twitter'></i>
+        </a>
+          <a href="#link" class="social-media-link">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <p class="copyright">Copyright &copy; Stacy. All Rights reserved</p>
+      </footer>
+      <!-- end footer -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
